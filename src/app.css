@@ -1,9 +1,20 @@
 main {
-    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
 }
-section {
+.badge-button {
     display: flex;
     justify-content: center;
-    margin: 0px;
+    margin-bottom: 10px;
+}
 
+h2 {
+    text-align: center;
+}
+
+.banner-div {
+    display: flex;
+    flex-direction: row;
 }

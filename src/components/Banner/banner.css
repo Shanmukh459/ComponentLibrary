@@ -1,0 +1,27 @@
+.banner-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 12px; 
+}
+
+.banner-left > svg {
+    color: #34D399;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+.banner-left{
+    margin: 0px;
+}
+
+.banner-right {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+    margin: 0px;
+}

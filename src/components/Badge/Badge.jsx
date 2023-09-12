@@ -8,9 +8,9 @@ export default function Badge({children, clr, shape}) {
     const allClasses = classnames(colorClass, shapeClass)
 
     return (
-        <main>
+        <div>
             <button className={allClasses}>{children}</button>
-        </main>
+        </div>
         
     )
 }
