@@ -1,7 +1,9 @@
 import React from "react"
 import Badge from "./components/Badge/Badge"
 import Banner from "./components/Banner/Banner"
-import {AiFillCheckCircle} from "react-icons/ai"
+import {AiFillCheckCircle } from "react-icons/ai"
+import { FaExclamationTriangle } from "react-icons/fa"
+import { HiXCircle, HiInformationCircle } from "react-icons/hi"
 import "./app.css"
 
 export default function App() {
@@ -30,7 +32,7 @@ export default function App() {
           <Badge shape="pill" clr="pink">Badge</Badge>
         </div>
       </section>
-      <section>
+      <section className="banner-section">
         <h2>Banner component</h2>
         <div className="banner-div">
           <Banner clr="green">
@@ -38,7 +40,34 @@ export default function App() {
               <AiFillCheckCircle />
             </div>
             <div className="banner-right">
-              <p>Congratulations!</p>
+              <p className="banner-title">Congratulations!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
+            </div>
+          </Banner>
+          <Banner clr="yellow">
+            <div className="banner-left">
+              <FaExclamationTriangle />
+            </div>
+            <div className="banner-right">
+              <p className="banner-title">Attention!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+            </div>
+          </Banner>
+          <Banner clr="red">
+            <div className="banner-left">
+              <HiXCircle />
+            </div>
+            <div className="banner-right">
+              <p className="banner-title">There is a problem with your application!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</p>
+            </div>
+          </Banner>
+          <Banner clr="blue">
+            <div className="banner-left">
+              <HiInformationCircle />
+            </div>
+            <div className="banner-right">
+              <p className="banner-title">Update available!</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
             </div>
           </Banner>

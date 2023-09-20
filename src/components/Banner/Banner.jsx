@@ -1,10 +1,14 @@
 import React from "react"
 import "./banner.css"
+import classnames from "classnames"
 
-export default function Banner({children}) {
-    console.log(children)
+export default function Banner({children, clr}) {
+    const defaultclass = 'banner-element'
+    const colorClass = `banner-${clr}`
+    const titleColor = `banner-title-${clr}`
+    const allClasses = classnames(defaultclass, colorClass, titleColor)
     return (
-        <div className="banner-element">  
+        <div className={allClasses}>  
             {children}
         </div>
     )

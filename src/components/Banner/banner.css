@@ -1,14 +1,24 @@
 .banner-element {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+
     padding: 16px;
     gap: 12px; 
+    border-radius: 8px;
+    width: 896px;
+}
+
+.banner-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
 }
 
 .banner-left > svg {
-    color: #34D399;
+
     width: 20px;
     height: 20px;
     margin: 0px;
@@ -16,6 +26,7 @@
 
 .banner-left{
     margin: 0px;
+    display: flex;
 }
 
 .banner-right {
@@ -24,4 +35,64 @@
     text-align: start;
     gap: 10px;
     margin: 0px;
+}
+
+.banner-right p, .banner-right h4 {
+    margin: 0px;
+}
+
+.banner-title {
+    font-weight: 500;
+}
+
+.banner-green {
+    background-color: #ECFDF5;
+    color: #047857;
+}
+
+.banner-green .banner-left > svg {
+    color: #34D399;
+}
+
+.banner-title-green {
+    color: #065F46;
+}
+
+.banner-yellow {
+    background-color: #FFFBEB;
+    color: #B45309;
+}
+
+.banner-title-yellow {
+    color: #92400E;
+}
+
+.banner-yellow .banner-left > svg {
+    color: #FBBF24;
+}
+
+.banner-red {
+    background-color: #FEF2F2;
+    color: #B45309;
+}
+
+.banner-title-red {
+    color: #92400E;
+}
+
+.banner-red .banner-left > svg {
+    color: #F87171;
+}
+
+.banner-blue {
+    background-color: #EFF6FF;
+    color: #1C51B9;
+}
+
+.banner-title-blue {
+    color: #1E40AF;
+}
+
+.banner-blue .banner-left > svg {
+    color: #60A5FA;
 }

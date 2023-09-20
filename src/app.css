@@ -3,6 +3,7 @@ main {
     flex-direction: column;
     width: 500px;
     margin: auto;
+    font-family: 'Inter', sans-serif;
 }
 .badge-button {
     display: flex;
@@ -14,7 +15,8 @@ h2 {
     text-align: center;
 }
 
-.banner-div {
-    display: flex;
-    flex-direction: row;
-}
+
+
+
+
+
