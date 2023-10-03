@@ -1,7 +1,6 @@
 .banner-element {
     display: flex;
     flex-direction: row;
-
     padding: 16px;
     gap: 12px; 
     border-radius: 8px;
@@ -18,7 +17,6 @@
 }
 
 .banner-left > svg {
-
     width: 20px;
     height: 20px;
     margin: 0px;

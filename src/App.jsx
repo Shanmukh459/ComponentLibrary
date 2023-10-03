@@ -1,9 +1,11 @@
 import React from "react"
 import Badge from "./components/Badge/Badge"
+import Card from "./components/Card/Card"
 import Banner from "./components/Banner/Banner"
 import {AiFillCheckCircle } from "react-icons/ai"
 import { FaExclamationTriangle } from "react-icons/fa"
 import { HiXCircle, HiInformationCircle } from "react-icons/hi"
+import { IoCloudUploadOutline, IoAccessibilityOutline } from "react-icons/io5"
 import "./app.css"
 
 export default function App() {
@@ -72,6 +74,14 @@ export default function App() {
             </div>
           </Banner>
         </div>
+      </section>
+      <section>
+        <h2>Card Component</h2>
+        <Card icon={<IoAccessibilityOutline />} clr="green">
+          
+          <p className="card-head">Easy Deployment</p>
+          <p className="card-body">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
+        </Card>
       </section>
       
     </main>
