@@ -2,10 +2,12 @@ import React from "react"
 import Badge from "./components/Badge/Badge"
 import Card from "./components/Card/Card"
 import Banner from "./components/Banner/Banner"
+import TestimonialWithImage from "./components/Testimonial/TestimonialWithImage"
 import {AiFillCheckCircle } from "react-icons/ai"
 import { FaExclamationTriangle } from "react-icons/fa"
 import { HiXCircle, HiInformationCircle } from "react-icons/hi"
 import { IoCloudUploadOutline, IoAccessibilityOutline } from "react-icons/io5"
+import { BiSolidQuoteAltLeft } from "react-icons/bi"
 import "./app.css"
 
 export default function App() {
@@ -82,6 +84,20 @@ export default function App() {
           <p className="card-head">Easy Deployment</p>
           <p className="card-body">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
         </Card>
+      </section>
+      <section>
+        <h2>Testimonial with image/Desktop version</h2>
+        <TestimonialWithImage clr="brown" type="desk">
+          <div className="testimonial-image">
+            <img src="./src/assets/image.JPG" />
+          </div>
+          <div className="testimonial-content">
+            <BiSolidQuoteAltLeft />
+            <p className="testimonial-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </p>
+            <p className="testimonial-name">May Andersons</p>
+            <p className="testimonial-title">Workcation, CTO</p>
+          </div>
+        </TestimonialWithImage>
       </section>
       
     </main>
