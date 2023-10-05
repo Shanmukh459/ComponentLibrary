@@ -8,14 +8,14 @@
     border-radius: 8px;
 }
 
-.testimonial-image {
+.testimonial-image-desk .testimonial-image {
     position: absolute;
     left: 30px;
     top: -30px;
     
 }
 
-.testimonial-image > img {
+.testimonial-image-desk .testimonial-image > img {
     width: 380px;
     height: 460px;
     object-fit:cover;
@@ -23,7 +23,7 @@
     box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-.testimonial-content {
+.testimonial-image-desk .testimonial-content {
     margin-left: 450px;
     color: #FFFFFF;
     width: 800px;
@@ -32,25 +32,25 @@
     margin-bottom: 70px;
 }
 
-.testimonial-content > svg {
+.testimonial-image-desk .testimonial-content > svg {
     height: 48px;
     width: 48px;
     opacity: 0.25;
 }
 
-.testimonial-desc {
+.testimonial-image-desk .testimonial-content .testimonial-desc {
     font-size: 24px;
     font-weight: 500;
 }
 
-.testimonial-name {
+.testimonial-image-desk .testimonial-content .testimonial-name {
     font-size: 16px;
     font-weight: 700;
     margin-top: 40px;
     margin-bottom: 0px;
 }
 
-.testimonial-title {
+.testimonial-image-desk .testimonial-content .testimonial-title {
     font-size: 16px;
     margin-top: 5px;
 }

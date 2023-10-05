@@ -1,0 +1,14 @@
+.testimonial-no-image {
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    text-align: center;
+}
+
+.no-image-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}

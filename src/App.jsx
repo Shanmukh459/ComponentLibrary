@@ -2,11 +2,12 @@ import React from "react"
 import Badge from "./components/Badge/Badge"
 import Card from "./components/Card/Card"
 import Banner from "./components/Banner/Banner"
-import TestimonialWithImage from "./components/Testimonial/TestimonialWithImage"
+import TestimonialWithImage from "./components/TestimonialWithImage/TestimonialWithImage"
+import TestimonialWithoutImage from "./components/TestimonialWithoutImage/TestimonialWithoutImage"
 import {AiFillCheckCircle } from "react-icons/ai"
 import { FaExclamationTriangle } from "react-icons/fa"
 import { HiXCircle, HiInformationCircle } from "react-icons/hi"
-import { IoCloudUploadOutline, IoAccessibilityOutline } from "react-icons/io5"
+import { IoCloudUploadOutline, IoAccessibilityOutline, IoHome } from "react-icons/io5"
 import { BiSolidQuoteAltLeft } from "react-icons/bi"
 import "./app.css"
 
@@ -86,8 +87,8 @@ export default function App() {
         </Card>
       </section>
       <section>
-        <h2>Testimonial with image/Desktop version</h2>
-        <TestimonialWithImage clr="brown" type="desk">
+        <h2>Testimonial with image</h2>
+        <TestimonialWithImage clr="brown" type="mob">
           <div className="testimonial-image">
             <img src="./src/assets/image.JPG" />
           </div>
@@ -98,6 +99,20 @@ export default function App() {
             <p className="testimonial-title">Workcation, CTO</p>
           </div>
         </TestimonialWithImage>
+      </section>
+      <section>
+        <h2>Testimonial without image</h2>
+        <TestimonialWithoutImage>
+          <div className="no-image-title">
+            <IoHome />
+            <p>Workcation</p>
+          </div>
+          <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”</p>
+          <div>
+            <p>May Andersons</p>
+            <p>Workcation, CTO</p>
+          </div>
+        </TestimonialWithoutImage>
       </section>
       
     </main>
