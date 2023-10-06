@@ -103,7 +103,7 @@ export default function App() {
       </section>
       <section>
         <h2>Testimonial without image</h2>
-        <TestimonialWithoutImage clr="red" mode="desk">
+        <TestimonialWithoutImage clr="red" mode="mob">
           <div className="no-image-title">
             <IoHome />
             <GiPalmTree />
@@ -116,8 +116,7 @@ export default function App() {
             <p className="testimonial-title">Workcation, CTO</p>
           </div>
         </TestimonialWithoutImage>
-      </section>
-      
+      </section>    
     </main>
   )
 }

@@ -1,4 +1,4 @@
-.testimonial-no-image {
+.testimonial-no-image-desk {
     display: flex;
     background-color: #FFFFFF;
     flex-direction: column;
@@ -33,7 +33,7 @@
 }
 
 
-.testimonial-no-image .testimonial-desc {
+.testimonial-no-image-desk .testimonial-desc {
     width: 768px;
     margin-left: auto;
     margin-right: auto;
@@ -42,13 +42,13 @@
 }
 
 
-.testimonial-no-image .testimonial-person .testimonial-name {
+.testimonial-no-image-desk .testimonial-person .testimonial-name {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 0px;
 }
 
-.testimonial-no-image .testimonial-person .testimonial-title {
+.testimonial-no-image-desk .testimonial-person .testimonial-title {
     font-size: 16px;
     margin: 0px;
     color: #6B7280;

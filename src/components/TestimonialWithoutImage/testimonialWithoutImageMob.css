@@ -1,0 +1,35 @@
+.testimonial-no-image-mob {
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    width: 376px;
+    height: 552px;
+}
+
+.testimonial-no-image-mob .testimonial-desc {
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 16px;
+    color: #111827;
+    width: 344px;
+    height: 232px;
+    margin-bottom: 0px;
+}
+
+.testimonial-no-image-mob .testimonial-person {
+    padding-left: 16px;
+    margin-top: 0px;
+}
+
+.testimonial-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.testimonial-title {
+    font-size: 16px;
+    margin: 0px;
+    color: #6B7280;
+}   
