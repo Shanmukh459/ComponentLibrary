@@ -5,6 +5,7 @@
     justify-content: center;
     width: 376px;
     height: 552px;
+    transition: all 0.5s ease-in-out;
 }
 
 .testimonial-no-image-mob .testimonial-desc {

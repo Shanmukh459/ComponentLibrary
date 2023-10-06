@@ -6,6 +6,7 @@
     justify-content: center;
     width: 1280px;
     height: 444px;
+    transition: all 0.5s ease-in-out;
 }
 
 .no-image-title {

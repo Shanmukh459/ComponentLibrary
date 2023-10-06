@@ -13,6 +13,16 @@ import { GiPalmTree } from "react-icons/gi"
 import "./app.css"
 
 export default function App() {
+  const [testimonialWithImageType, setTestimonialWithImageType] = React.useState("desk")
+  const [testimonialWithoutImageType, setTestimonialWithoutImageType] = React.useState("desk")
+
+  function toggleWithImageType () {
+    return setTestimonialWithImageType(prev => prev==="desk"? "mob": "desk")
+  }
+
+  function toggleWithoutImageType () {
+    return setTestimonialWithoutImageType(prev => prev==="desk"? "mob": "desk")
+  }
   return (
     <main>
       <section>
@@ -89,7 +99,7 @@ export default function App() {
       </section>
       <section>
         <h2>Testimonial with image</h2>
-        <TestimonialWithImage clr="brown" type="desk">
+        <TestimonialWithImage clr="yellow" type={testimonialWithImageType}>
           <div className="testimonial-image">
             <img src="./src/assets/image.JPG" />
           </div>
@@ -100,10 +110,11 @@ export default function App() {
             <p className="testimonial-title">Workcation, CTO</p>
           </div>
         </TestimonialWithImage>
+        <button className="testimonial-button" onClick={toggleWithImageType}>Change to {testimonialWithImageType === "desk" ? "Mobile" : "Desktop"} view</button>
       </section>
       <section>
         <h2>Testimonial without image</h2>
-        <TestimonialWithoutImage clr="red" mode="mob">
+        <TestimonialWithoutImage clr="yellow" mode={testimonialWithoutImageType}>
           <div className="no-image-title">
             <IoHome />
             <GiPalmTree />
@@ -116,6 +127,7 @@ export default function App() {
             <p className="testimonial-title">Workcation, CTO</p>
           </div>
         </TestimonialWithoutImage>
+        <button className="testimonial-button" onClick={toggleWithoutImageType}>Change to {testimonialWithoutImageType === "desk" ? "Mobile" : "Desktop"} view</button>
       </section>    
     </main>
   )
