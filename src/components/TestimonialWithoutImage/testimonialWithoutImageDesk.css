@@ -3,12 +3,53 @@
     background-color: #FFFFFF;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    width: 1280px;
+    height: 444px;
 }
 
 .no-image-title {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
     justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
 }
+
+.no-image-title > svg {
+    width: 44px;
+    height: 30px;
+    margin-right: -15px;
+}
+
+.no-image-title .testimonial-work {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.no-image-title .testimonial-cation {
+    margin-left: 0px;
+}
+
+
+.testimonial-no-image .testimonial-desc {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.testimonial-no-image .testimonial-person .testimonial-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.testimonial-no-image .testimonial-person .testimonial-title {
+    font-size: 16px;
+    margin: 0px;
+    color: #6B7280;
+}   

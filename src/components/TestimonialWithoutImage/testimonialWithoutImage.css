@@ -1,0 +1,35 @@
+.testimonial-no-image-blue .no-image-title > svg, 
+.testimonial-no-image-blue .no-image-title .testimonial-cation {
+    color: #2E59F3;
+}
+
+.testimonial-no-image-green .no-image-title > svg, 
+.testimonial-no-image-green .no-image-title .testimonial-cation {
+    color: green;
+}
+
+.testimonial-no-image-yellow .no-image-title > svg, 
+.testimonial-no-image-yellow .no-image-title .testimonial-cation {
+    color: rgb(255, 196, 0);
+}
+
+.testimonial-no-image-red .no-image-title > svg,  
+.testimonial-no-image-red .no-image-title .testimonial-cation {
+    color: red;
+}
+
+.testimonial-no-image-brown .no-image-title > svg, 
+.testimonial-no-image-brown .no-image-title .testimonial-cation {
+    color: brown;
+}
+
+.testimonial-no-image-pink .no-image-title > svg, 
+.testimonial-no-image-pink .no-image-title .testimonial-cation {
+    color: pink;
+}
+
+.testimonial-no-image-lightblue .no-image-title > svg,
+.testimonial-no-image-lightblue .no-image-title .testimonial-cation {
+    color: lightblue;
+}
+

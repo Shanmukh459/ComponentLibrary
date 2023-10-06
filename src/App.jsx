@@ -9,6 +9,7 @@ import { FaExclamationTriangle } from "react-icons/fa"
 import { HiXCircle, HiInformationCircle } from "react-icons/hi"
 import { IoCloudUploadOutline, IoAccessibilityOutline, IoHome } from "react-icons/io5"
 import { BiSolidQuoteAltLeft } from "react-icons/bi"
+import { GiPalmTree } from "react-icons/gi"
 import "./app.css"
 
 export default function App() {
@@ -88,7 +89,7 @@ export default function App() {
       </section>
       <section>
         <h2>Testimonial with image</h2>
-        <TestimonialWithImage clr="brown" type="mob">
+        <TestimonialWithImage clr="brown" type="desk">
           <div className="testimonial-image">
             <img src="./src/assets/image.JPG" />
           </div>
@@ -102,15 +103,17 @@ export default function App() {
       </section>
       <section>
         <h2>Testimonial without image</h2>
-        <TestimonialWithoutImage>
+        <TestimonialWithoutImage clr="red" mode="desk">
           <div className="no-image-title">
             <IoHome />
-            <p>Workcation</p>
+            <GiPalmTree />
+            <p className="testimonial-work">Work</p>
+            <p className="testimonial-cation">cation</p>
           </div>
-          <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”</p>
-          <div>
-            <p>May Andersons</p>
-            <p>Workcation, CTO</p>
+          <p className="testimonial-desc">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”</p>
+          <div className="testimonial-person">
+            <p className="testimonial-name">May Andersons</p>
+            <p className="testimonial-title">Workcation, CTO</p>
           </div>
         </TestimonialWithoutImage>
       </section>
